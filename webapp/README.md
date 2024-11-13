@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## for set up follow the step (push code from windows init the git)
+## for first time user to add the email and username to setup git to user windows cmd
+ git config --global user.email "xyz@gmail.com"
+ git config --global user.name "abc***"
+ git init
+ git add . or git add --renormalize .
+ git commit -m "first commit"
+ git branch -M main
+ git remote add origin https://github.com/ShravaniShriram/React.git
+ git push -u origin main
